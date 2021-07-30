@@ -1,81 +1,286 @@
-body{
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    margin: 1px;
-    padding:2em;
-    /* background-color: #FFA500;  */
-    
-
-    
-
+nav {
+  margin: 1px;
+  padding: 2em;
+  /* background-color: #FFA500;  */
 }
-.logo{
-    /* font-family: "Pacifico",cursive; */
-    font-family: 'Bodoni Moda', serif;
-    display: inline-block;
-    color: #37b3ff;
-    width: 45%;
-    padding-left: 1rem;
-    letter-spacing:2px;
+.logo {
+  /* font-family: "Pacifico",cursive; */
+  font-family: "Bodoni Moda", serif;
+  display: inline-block;
+  color: #1da1f2;
+  width: 50%;
+  padding-left: 2rem;
+  letter-spacing: 2px;
 }
-nav Ul{
-    display: inline-block;
-    /* padding-right: 5em ; */
-   
+nav Ul {
+  display: inline-block;
+  /* padding-right: 5em ; */
 }
 nav ul li {
-    display: inline-block;
-    padding: 1em;
-   
+  display: inline-block;
+  padding: 1em;
 }
-nav ul li a { 
-    color: #37b3ff;
-    display: inline-block;
-    text-decoration: none;
-} 
-nav ul li a:hover{
-    text-decoration:underline;
+nav ul li a {
+  color: #1da1f2;
+  display: inline-block;
+  text-decoration: none;
 }
-.section1{
-    display: flex;
+nav ul li a:hover {
+  text-decoration: underline;
 }
-.creative{
-    width: 80%;
-    /* padding: 2rem; */
+.section1 {
+  display: flex;
 }
-.item{
-    width:100%;
-    padding: 0px 3em;
+.creative {
+  width: 60%;
+  /* padding: 2rem; */
+  /* padding-left: 1em; */
+  display: block;
 }
-.item1 h1{
-    font-size: 4em; 
-    color: #37b3ff;
-    padding: 0px 1em ;
-    text-transform: capitalize;
-    font-weight:bolder;
-    font-stretch:expanded;
-    line-height: 1.5;
-    
-
+.item {
+  width: 100%;
+  padding: 0px 3em;
 }
-.item1 p{
-
-    padding: 0px 3em ;
-
+.item1 h1 {
+  font-size: 3em;
+  color: #1da1f2;
+  padding: 0px 1em;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-stretch: expanded;
+  line-height: 1.5;
 }
-item2{
-    padding-right: 1em;
+.item1 p {
+  padding: 0px 3em;
+}
+.item2 {
+  padding-right: 1em;
 }
 
-
-footer{
-    background-color: #37b3ff;
-    margin: 1px;
-    padding: 1em;
-    text-align: center;
-    text-transform: capitalize;
-
+.client {
+  width: 100%;
+}
+.sm {
+  width: 5%;
+  left: 70%;
+  padding: 2em 5px;
 }
 
+.get-s {
+  background-color: #1da1f2;
+  font-size: 1em;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border-color: #1da1f2;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  position: relative;
+  left: 10%;
+}
+.section2 {
+  display: flex;
+  background-color: #1da1f2;
+  padding: 1em;
+}
+.itemb {
+  padding: 3em;
+}
+.Yus {
+  width: 90%;
+}
+.itemb h1 {
+  font-size: 3em;
+  color: #fff;
+  padding: 0px 1em;
+}
+.itemb p {
+  padding: 0px 3em;
+  /* padding-right: 28rem; */
+  color: white;
+  position: relative;
+  line-break: unset;
+}
+/* HARINIVAS */
+.OS {
+  color: #1da1f2;
+  text-align: center;
+}
+.Ourserv1 {
+  /* height: 300px; */
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+}
+.Ourserv2 {
+  width: 49%;
+  display: inline-block;
+}
+.Oserv1 {
+  width: 100%;
+}
+.ooo {
+  width: 49%;
+  text-align: right;
+}
+.oo{
+
+    width: 70%;
+}
+.o1{
+    text-align: right;
+
+}
+/* HARINIVAS */
+
+.box2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.boxt {
+  text-align: center;
+}
+.boxim {
+  width: 60%;
+  padding: 2rem;
+  border: #ffa500 solid;
+}
+.orworks {
+  color: #1da1f2;
+  text-align: center;
+  text-decoration: #1da1f2 underline;
+}
+.email {
+  width: 70%;
+  position: relative;
+  top: 9em;
+  right:4em;
+  
+}
+/* SANJAI */
+
+.Flex-container {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-content: inherit; */
+
+  /* background */
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d8e0de+0,aebfbc+22,99afab+33,8ea6a2+50,829d98+67,4e5c5a+82,0e0e0e+100 */
+  background: #d8e0de; /* Old browsers */
+
+  /* background */
+}
+.Flex-container h2 {
+  color: #1da1f2;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.itemd {
+  /* content: inherit; */
+  width: 450px;
+  padding: 0 10% 0 2%;
+}
+.h2 {
+  font-size: x-large;
+}
+.itemd-1 {
+  text-align: left;
+  line-break: 0;
+}
+.itemd-1 p {
+  padding: 0 0 3rem 0;
+}
+.itemd-2 {
+  text-align: center;
+  padding: 0px;
+}
+.itemd-3 {
+  /* text-align: left; */
+  text-align-last: right;
+}
+.footerimg {
+  width: 10%;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 4em;
+}
+.Flex-container h3 {
+  color: #1da1f2;
+  text-transform: capitalize;
+}
+
+/* SANJAI */
+footer {
+  background-color: #1da1f2;
+  margin: 1px;
+  padding: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.whp {
+  width: 100%;
+  height: 60%;
+}
+.dwhp {
+  text-align: center;
+}
+
+.contanier2 h1 {
+  color: #1da1f2;
+  /* padding-left: 2em; */
+  font-size: 2em;
+  letter-spacing: 4px;
+  padding-right: 2em;
+}
+
+.contanier2 {
+  display: flex;
+  padding: 1em;
+}
+.itemc {
+  width: 50%;
+  padding-left: 4em;
+  color: #1da1f2;
+}
+.input {
+  /* font-size: 1.5em; */
+  padding: 5px;
+  border-radius: 5px;
+}
+#message {
+  padding: 5px;
+  border-radius: 5px;
+}
+.send {
+  background-color: #1da1f2;
+  font-size: 1em;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border-color: #1da1f2;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  position: relative;
+  left: 50%;
+}
+
+button:hover {
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
+
+@media only screen and (min-width: 1400px) {
+  .item h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 600) {
+}
